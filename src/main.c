@@ -3,8 +3,8 @@
 void sort(int n, int arr[]);
 
 int main(){
-    int cnt = 0;//counting the number of input elements
-    int arr[100];//array of input elements
+    int cnt = 0;//Counting the number of input elements
+    int arr[100];//Array of input elements
 
     for (int i = 0; i < 100; i++){
         int rc = scanf("%d", &arr[i]);
@@ -14,9 +14,9 @@ int main(){
         else{
             break;
         }
-    }//processing standard input of integer numbers
+    }//Processing standard input of integer numbers
 
-    sort(cnt, arr);//sorting the input array of integers in ascending order
+    sort(cnt, arr);//Sorting the input array of integers in ascending order
 
     for (int l = 0; l < cnt; l++){
         printf("%d ", arr[l]);
